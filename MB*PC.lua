@@ -14,11 +14,11 @@ else
     if _G.Mode == "Thai" then
     game.Players.LocalPlayer:Kick("ไม่มีเกมนี้")
      wait(1)
-        game:Shudown()
+       game:Shutdown()
     else
     _G.Mode = "English"
         game.Players.LocalPlayer:Kick("There are no games on the list.")
         wait(1)
-        game:Shudown()
+       game:Shutdown()
     end   
 end;
