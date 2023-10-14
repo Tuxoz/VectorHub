@@ -1,0 +1,6 @@
+if _G.eng == false then
+game.Players.LocalPlayer:Kick("ไปเช็คดิสคอร์ดVectorHub")
+else
+_G.eng = true 
+game.Players.LocalPlayer:Kick("CheckDiscordVectorHub")
+end
