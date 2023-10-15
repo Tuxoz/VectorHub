@@ -7,7 +7,7 @@ elseif id == 6918802270 or id == 14979402479 then
 elseif id == 13772394625 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/BladeBall"))()
 else
-    if _G.Mode == "Thai" then
+    if _G.Mode == "Thai" or not _G.Mode then
     game.Players.LocalPlayer:Kick("ไม่มีเกมนี้")
      wait(1)
         game:Shutdown()
