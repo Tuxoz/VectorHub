@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded();
 local id = game.PlaceId
 if id == 2753915549 or id == 4442272183 or id == 7449423635 then
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/bfx"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/ez"))()
 elseif id == 6918802270 or id == 14979402479 then 
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/ha"))()
 elseif id == 13772394625 then 
